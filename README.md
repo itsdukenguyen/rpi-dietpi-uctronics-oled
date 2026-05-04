@@ -29,7 +29,7 @@
 
 ## 🚀 Quick Start
 
-```markdown
+
 ### 1. Enable I2C
 
 ```bash
