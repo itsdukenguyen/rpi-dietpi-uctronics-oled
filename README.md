@@ -28,9 +28,9 @@ Complete guide for running system statistics on the **UCTronics OLED display** (
 ## 🚀 Step-by-Step Setup
 
 ### 1. Enable I2C on DietPi
-```bash
+`bash
 sudo dietpi-config
-```bash
+``bash
 
 ### Go to 7: Advanced Options → I2C State → Enabled
 Reboot the Pi
