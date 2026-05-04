@@ -38,7 +38,7 @@ Verify:
 sudo i2cdetect -y 1
 ```
 
-You should see 0x3C (or similar).
+You should see `0x3C` (or similar).
 ### 2. Install Dependencies
 ```bash
 sudo apt update
