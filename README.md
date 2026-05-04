@@ -31,3 +31,7 @@
 ### 1. Enable I2C
 ```bash
 sudo dietpi-config
+
+#### → 7: Advanced Options → I2C State → Enabled → Reboot
+Verify:
+sudo i2cdetect -y 1
