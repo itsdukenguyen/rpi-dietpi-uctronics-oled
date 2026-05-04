@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Raspberry Pi 4B + DietPi + UCTronics OLED Stats Display
 
 Complete guide for running system statistics on the **UCTronics OLED display** (U6143 SSD1306) using **DietPi OS** on a Raspberry Pi 4B inside a UCTronics PoE Rack.
@@ -29,14 +28,14 @@ Complete guide for running system statistics on the **UCTronics OLED display** (
 ## 🚀 Step-by-Step Setup
 
 ### 1. Enable I2C on DietPi
-```bash
+
 sudo dietpi-config
 
 
-Go to 7: Advanced Options → I2C State → Enabled
+### Go to 7: Advanced Options → I2C State → Enabled
 Reboot the Pi
 
-Verify I2C:
+## Verify I2C:
 
 
 sudo i2cdetect -y 1
