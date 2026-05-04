@@ -105,3 +105,15 @@ rpi-dietpi-uctronics-oled/
 ├── custom.sh          # Backup of autostart script
 ├── photos/            # Add screenshots here
 └── LICENSE
+
+
+📸 Photos
+
+(Add your OLED photos here later)
+🔗 References
+
+- Official UCTronics Repo: https://github.com/UCTRONICS/U6143_ssd1306
+- DietPi Forum & Docs
+
+📄 License
+MIT License - feel free to use and modify.
