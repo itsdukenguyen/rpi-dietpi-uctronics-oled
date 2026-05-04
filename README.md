@@ -1,8 +1,15 @@
 # Raspberry Pi 4B + DietPi + UCTronics OLED Stats Display
 
-A complete, lightweight setup guide for running system statistics (CPU, RAM, temperature, etc.) on the **UCTronics OLED display** (U6143 SSD1306) with **DietPi OS** on a Raspberry Pi 4B inside a UCTronics PoE Rack.
+[![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-4B-C51A4A?logo=raspberrypi&logoColor=white)](https://raspberrypi.com)
+[![DietPi](https://img.shields.io/badge/DietPi-OS-00A3E0?logo=linux&logoColor=white)](https://dietpi.com)
+[![OLED](https://img.shields.io/badge/OLED-SSD1306-1E90FF)](https://github.com/UCTRONICS/U6143_ssd1306)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/YOURUSERNAME/rpi-dietpi-uctronics-oled?style=social)](https://github.com/itsdukenguyen/rpi-dietpi-uctronics-oled)
+[![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi%204B-orange)](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
 
-![OLED Display Example](oled-example.jpg) <!-- Add a photo later -->
+**A clean, lightweight, fully documented setup** for displaying system stats (CPU, RAM, temperature, etc.) on the UCTronics OLED in a PoE Rack using **DietPi OS**.
+
+![OLED Display](photos/oled-example.jpg) <!-- Add your photo later -->
 
 ## ✨ Features
 - Automatic OLED stats display on boot via **DietPi Autostart**
