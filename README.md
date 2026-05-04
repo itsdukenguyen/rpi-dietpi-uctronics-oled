@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Raspberry Pi 4B + DietPi + UCTronics OLED Stats Display
 
 Complete guide for running system statistics on the **UCTronics OLED display** (U6143 SSD1306) using **DietPi OS** on a Raspberry Pi 4B inside a UCTronics PoE Rack.
@@ -111,3 +112,7 @@ find . -type f ! -name 'display' -delete
 🔧 Troubleshooting
 
 ProblemSolutionOLED is blankRun sudo i2cdetect -y 1Wrong I2C addressEdit main.c then recompileDisplay not startingCheck script: sudo /var/lib/dietpi/dietpi-autostart/custom.shCheck logssudo journalctl -b | grep custom
+=======
+# rpi-dietpi-uctronics-oled
+DietPi setup for Raspberry Pi 4B with UCTronics PoE Rack + OLED display showing system stats (CPU, RAM, temp, etc.)
+>>>>>>> eeefbe874e5fc7e18ec8af16f7450a960bb67894
