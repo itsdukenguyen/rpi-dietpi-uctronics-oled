@@ -34,3 +34,6 @@
 
 ```bash
 sudo dietpi-config
+
+```markdown
+### 1. Enable I2C
