@@ -57,8 +57,51 @@ sudo dietpi-autostart
 ```
 
 → Choose 16: Custom Script
+
 Create the script:
 ```bash
 sudo nano /var/lib/dietpi/dietpi-autostart/custom.sh
 ```
 
+Content of custom.sh:
+```bash
+#!/bin/bash
+# UCTronics OLED Autostart for DietPi
+
+cd /home/dietpi/U6143_ssd1306/C
+sudo ./display &
+```
+
+Make executable:
+```bash
+sudo chmod +x /var/lib/dietpi/dietpi-autostart/custom.sh
+```
+
+Reboot and enjoy!
+
+### 5. Cleanup (Minimal Footprint)
+```bash
+sudo apt remove --purge -y git build-essential
+sudo apt autoremove -y
+sudo apt autoclean
+
+# Optional: Keep only the binary
+cd /home/dietpi/U6143_ssd1306/C
+sudo make clean
+find . -type f ! -name 'display' -delete
+```
+
+
+Troubleshooting
+
+- OLED blank → Check sudo i2cdetect -y 1
+- I2C address wrong → Edit main.c and recompile
+- Service logs: sudo journalctl -b | grep custom
+
+📁 Repository Structure
+
+rpi-dietpi-uctronics-oled/
+├── README.md
+├── custom.sh          # Backup of autostart script
+├── photos/            # Add screenshots here
+└── LICENSE
