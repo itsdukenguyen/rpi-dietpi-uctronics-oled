@@ -8,6 +8,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi%204B-orange)](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
 
 **A clean, lightweight, fully documented setup** for displaying real-time system stats (CPU, RAM, temperature, etc.) on the **UCTronics OLED** in a PoE Rack using **DietPi OS**.
+
 **[One-Command Installer](setup.sh)** ← Recommended way
 
 ![OLED Display](photos/oled-example.jpg) <!-- Add your photo later -->
