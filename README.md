@@ -4,20 +4,19 @@
 [![DietPi](https://img.shields.io/badge/DietPi-OS-00A3E0?logo=linux&logoColor=white)](https://dietpi.com)
 [![OLED](https://img.shields.io/badge/OLED-SSD1306-1E90FF)](https://github.com/UCTRONICS/U6143_ssd1306)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/YOURUSERNAME/rpi-dietpi-uctronics-oled?style=social)](https://github.com/itsdukenguyen/rpi-dietpi-uctronics-oled)
+[![GitHub stars](https://img.shields.io/github/stars/itsdukenguyen/rpi-dietpi-uctronics-oled?style=social)](https://github.com/itsdukenguyen/rpi-dietpi-uctronics-oled)
 [![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi%204B-orange)](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
 
-**A clean, lightweight, fully documented setup** for displaying system stats (CPU, RAM, temperature, etc.) on the UCTronics OLED in a PoE Rack using **DietPi OS**.
+**A clean, lightweight, fully documented setup** for displaying real-time system stats (CPU, RAM, temperature, etc.) on the **UCTronics OLED** in a PoE Rack using **DietPi OS**.
+**[One-Command Installer](setup.sh)** ← Recommended way
 
 ![OLED Display](photos/oled-example.jpg) <!-- Add your photo later -->
 
 ## ✨ Features
-- Automatic OLED stats display on boot via **DietPi Autostart**
-- Clean, minimal DietPi installation
-- I2C enabled
-- Compiled C binary from official UCTronics repo
-- Fully documented cleanup steps
-- Tested on DietPi with Pi-Hole
+- One-command installer (`setup.sh`)
+- Automatic startup via **DietPi Autostart**
+- Minimal resource usage
+- Fully tested on DietPi with Pi-Hole
 
 ## 📋 Hardware
 - Raspberry Pi 4B
@@ -46,7 +45,8 @@ sudo apt install -y build-essential libi2c-dev i2c-tools git
 ```
 
 ### 3. Clone & Compile UCTronics Code
-```bashcd /home/dietpi
+```bash
+cd /home/dietpi
 git clone https://github.com/UCTRONICS/U6143_ssd1306.git
 
 cd U6143_ssd1306/C
@@ -105,13 +105,15 @@ Troubleshooting
 - I2C address wrong → Edit main.c and recompile
 - Service logs: sudo journalctl -b | grep custom
 
-📁 Repository Structure
+## 📁 Repository Structure
 
 rpi-dietpi-uctronics-oled/
 ├── README.md
-├── custom.sh          # Backup of autostart script
-├── photos/            # Add screenshots here
-└── LICENSE
+├── setup.sh                 # One-command automated installer
+├── custom.sh                # Backup of DietPi autostart script
+├── LICENSE
+└── photos/                  # Place OLED screenshots here
+└── oled-example.jpg
 
 
 📸 Photos
