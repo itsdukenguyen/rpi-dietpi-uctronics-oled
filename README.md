@@ -25,6 +25,7 @@ sudo dietpi-config
 ```
 
 → 7: Advanced Options → I2C State → Enabled → Reboot
+
 Verify:
 ```bash
 sudo i2cdetect -y 1
@@ -60,3 +61,4 @@ Create the script:
 ```bash
 sudo nano /var/lib/dietpi/dietpi-autostart/custom.sh
 ```
+
