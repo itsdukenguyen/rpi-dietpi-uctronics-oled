@@ -28,7 +28,9 @@
 
 ## 🚀 Quick Start
 
-sudo i2cdetect -y 1
+```bash
+sudo dietpi-config
+```
 
 ### 1. Enable I2C
 
