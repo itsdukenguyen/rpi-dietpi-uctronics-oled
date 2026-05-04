@@ -108,14 +108,14 @@ Troubleshooting
 
 ## 📁 Repository Structure
 
+```text
 rpi-dietpi-uctronics-oled/
 ├── README.md
-├── setup.sh                 # One-command automated installer
-├── custom.sh                # Backup of DietPi autostart script
+├── setup.sh                    # One-command automated installer
+├── custom.sh                   # Backup of DietPi autostart script
 ├── LICENSE
-└── photos/                  # Place OLED screenshots here
-└── oled-example.jpg
-
+└── photos/                     # Place your OLED screenshots here
+    └── oled-example.jpg
 
 📸 Photos
 
