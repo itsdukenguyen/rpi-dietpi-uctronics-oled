@@ -35,5 +35,5 @@
 ```bash
 sudo dietpi-config
 
-```markdown
-### 1. Enable I2C
+	→ Go to 7: Advanced Options → I2C State → Enabled → Reboot
+	Verify I2C device:
