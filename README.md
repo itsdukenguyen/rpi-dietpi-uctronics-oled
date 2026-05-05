@@ -124,7 +124,6 @@ Troubleshooting
 |------|-------------|
 | [`setup.sh`](setup.sh) | One-command automated installer (Recommended) |
 | [`custom.sh`](custom.sh) | DietPi autostart script |
-| [`README.md`](README.md) | This document (full setup guide) |
 | [`photos/oled-example.jpg`](photos/oled-example.jpg) | OLED display in action |
 
 ---
@@ -145,7 +144,9 @@ rpi-dietpi-uctronics-oled/
 
 ## 📸 Photos
 
-<img src="photos/oled-example.jpg" alt="OLED Display Running" width="60%">
+<p align="center">
+  <img src="photos/oled-example.jpg" alt="UCTronics OLED Display" width="70%" />
+</p>
 🔗 References
 
 - Official UCTronics Repo: https://github.com/UCTRONICS/U6143_ssd1306
