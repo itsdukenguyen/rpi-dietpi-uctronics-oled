@@ -1,5 +1,7 @@
 # Raspberry Pi 4B + DietPi + UCTronics OLED Stats Display
 
+![Banner](banner.jpg)
+
 [![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-4B-C51A4A?logo=raspberrypi&logoColor=white)](https://raspberrypi.com)
 [![DietPi](https://img.shields.io/badge/DietPi-OS-00A3E0?logo=linux&logoColor=white)](https://dietpi.com)
 [![OLED](https://img.shields.io/badge/OLED-SSD1306-1E90FF)](https://github.com/UCTRONICS/U6143_ssd1306)
