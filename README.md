@@ -145,7 +145,7 @@ rpi-dietpi-uctronics-oled/
 
 ## 📸 Photos
 
-(Add your OLED photos here later)
+<img src="photos/oled-example.jpg" alt="OLED Display Running" width="60%">
 🔗 References
 
 - Official UCTronics Repo: https://github.com/UCTRONICS/U6143_ssd1306
