@@ -40,12 +40,16 @@ Verify:
 sudo i2cdetect -y 1
 ```
 
+---
+
 You should see `0x3C` (or similar).
 ### 2. Install Dependencies
 ```bash
 sudo apt update
 sudo apt install -y build-essential libi2c-dev i2c-tools git
 ```
+
+---
 
 ### 3. Clone & Compile UCTronics Code
 ```bash
@@ -60,6 +64,8 @@ Test manually:
 ```bash
 sudo ./display
 ```
+
+---
 
 ### 4. Configure DietPi Autostart (Recommended)
 ```bash
@@ -89,6 +95,8 @@ sudo chmod +x /var/lib/dietpi/dietpi-autostart/custom.sh
 
 Reboot and enjoy!
 
+---
+
 ### 5. Cleanup (Minimal Footprint)
 ```bash
 sudo apt remove --purge -y git build-essential
@@ -108,6 +116,19 @@ Troubleshooting
 - I2C address wrong → Edit main.c and recompile
 - Service logs: sudo journalctl -b | grep custom
 
+---
+
+## 📖 Full Documentation
+
+| File | Description |
+|------|-------------|
+| [`setup.sh`](setup.sh) | One-command automated installer (Recommended) |
+| [`custom.sh`](custom.sh) | DietPi autostart script |
+| [`README.md`](README.md) | This document (full setup guide) |
+| [`photos/oled-example.jpg`](photos/oled-example.jpg) | OLED display in action |
+
+---
+
 ## 📁 Repository Structure
 
 ```text
@@ -120,7 +141,9 @@ rpi-dietpi-uctronics-oled/
     └── oled-example.jpg
 ```
 
-📸 Photos
+---
+
+## 📸 Photos
 
 (Add your OLED photos here later)
 🔗 References
@@ -128,5 +151,8 @@ rpi-dietpi-uctronics-oled/
 - Official UCTronics Repo: https://github.com/UCTRONICS/U6143_ssd1306
 - DietPi Forum & Docs
 
-📄 License
-MIT License - feel free to use and modify.
+---
+
+## 📄 License
+
+[MIT License](LICENSE) © 2026 Duc Nguyen
